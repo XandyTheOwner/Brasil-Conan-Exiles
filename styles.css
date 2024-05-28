@@ -84,6 +84,11 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+
+    width: 100%;
+    height: auto;
+    max-width: 720px; /* Defina o tamanho máximo da imagem */
+    border-radius: 5px; /* Opcional: arredondar bordas da imagem */
 }
 
 .hero h2 {
@@ -96,6 +101,9 @@ main {
     max-width: 800px;
     margin: 0 auto;
 }
+
+
+
 
 footer {
     background-color: #333333;
@@ -143,4 +151,23 @@ footer .social-icon:hover {
 .server h3 {
     margin-top: 0;
     color: #4A90E2;
+}
+
+
+
+.alert-window {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+    margin: 10px;
+}
+
+.alert-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
 }
